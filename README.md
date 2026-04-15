@@ -1,16 +1,13 @@
-## Hi there 👋
+## Hi, I'm Benjamin Lauzon
 
-<!--
-**BenjaminLauzon/BenjaminLauzon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 💻 I like Programming and I am currently in School
+- 🌱 Currently learning: Object Oriented Programming
+- 📫 Reach me: [benjamin.lauzon21@gmail.com](mailto:benjamin.lauzon21@gmail.com) / [[LinkedIn](https://www.linkedin.com/in/ben-lauzon/)]
 
-Here are some ideas to get you started:
+## ⚙My Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+C# • HTML • CSS
+
+## 🛠 My Favorite Tools
+
+Vs Code • Visual Studio • Git • Github

@@ -1,0 +1,35 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  text-decoration: none;
+  text-wrap: wrap;
+  font-weight: bold;
+}
+.nav-links a:hover {
+  color: rgb(4, 180, 190);
+}
+.main-header {
+  padding: 1em;
+}
+.main-header h1,
+h3 {
+  display: flex;
+  padding-left: 4rem;
+  color: white;
+}
+.body-paragraph {
+  display: flex;
+  padding-left: 4rem;
+  color: aliceblue;
+}

@@ -1,6 +1,6 @@
 ## Hi, I'm Benjamin Lauzon
 
-- 💻 I like Programming and I am currently in School
+- 💻 Programming Enthusiast / Computer Science Student
 - 🌱 Currently learning: Object Oriented Programming
 - 📫 Reach me: [benjamin.lauzon21@gmail.com](mailto:benjamin.lauzon21@gmail.com) / [[LinkedIn](https://www.linkedin.com/in/ben-lauzon/)]
 
@@ -10,4 +10,4 @@ C# • HTML • CSS
 
 ## 🛠 My Favorite Tools
 
-Vs Code • Visual Studio • Git • Github
+Vs Code • Github

@@ -1,8 +1,10 @@
 .nav-bar {
+  clear: both;
   display: flex;
   justify-content: center;
   padding: 0.5rem 1rem;
   background-color: blue;
+  color: white;
 }
 .nav-links {
   display: flex;
@@ -19,32 +21,46 @@
 .nav-links a:hover {
   color: rgb(4, 180, 190);
 }
-.main-header h1,
+.main-header h2,
 h3 {
   display: flex;
+  justify-content: space-between;
   padding-left: 2rem;
   color: white;
 }
 .body-paragraph {
   display: flex;
-  padding-left: 4rem;
+  padding-left: 2rem;
   color: aliceblue;
+}
+.main-body-picture {
+  float: right;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
 }
 @media (min-width: 500px) {
   .nav-links {
     display: flex;
     gap: 4rem;
   }
-  .main-header h1,
+  .main-header h2,
   h3 {
     display: flex;
     padding-left: 2rem;
     color: white;
+    font-size: 1.75em;
   }
   .body-paragraph {
     display: flex;
-    padding-left: 4rem;
+    padding-left: 2rem;
     color: aliceblue;
+    font-size: larger;
+  }
+  .main-body-picture {
+    display: flex;
+    justify-content: right;
+    padding-left: 1rem;
   }
 }
 
@@ -52,17 +68,18 @@ h3 {
   .nav-links {
     display: flex;
     gap: 8rem;
-    font-size: larger;
   }
-  .main-header h1,
+  .main-header h2,
   h3 {
     display: flex;
-    padding-left: 2rem;
-    color: white;
+    justify-content: left;
+    color: aliceblue;
+    font-size: 2.75em;
   }
   .body-paragraph {
     display: flex;
     padding-left: 4rem;
     color: aliceblue;
+    font-size: x-large;
   }
 }

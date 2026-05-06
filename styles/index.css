@@ -1,4 +1,5 @@
 .nav-bar {
+  /* change to only nav*/
   clear: both;
   display: flex;
   justify-content: center;
@@ -21,7 +22,7 @@
 .nav-links a:hover {
   color: rgb(4, 180, 190);
 }
-.main-header h2,
+.main-header h2, /* change main-header to just Header*/
 h3 {
   display: flex;
   justify-content: space-between;
@@ -29,6 +30,7 @@ h3 {
   color: white;
 }
 .body-paragraph {
+  /*rename it to just main */
   display: flex;
   padding-left: 2rem;
   color: aliceblue;
@@ -40,11 +42,12 @@ h3 {
   padding: 0.5rem;
 }
 @media (min-width: 500px) {
+  /* change to only nav*/
   .nav-links {
     display: flex;
     gap: 4rem;
   }
-  .main-header h2,
+  .main-header h2,/* change main-header to just Header*/
   h3 {
     display: flex;
     padding-left: 2rem;
@@ -52,6 +55,7 @@ h3 {
     font-size: 1.75em;
   }
   .body-paragraph {
+    /*rename it to just main */
     display: flex;
     padding-left: 2rem;
     color: aliceblue;
@@ -65,11 +69,12 @@ h3 {
 }
 
 @media (min-width: 1080px) {
+  /* change to only nav*/
   .nav-links {
     display: flex;
     gap: 8rem;
   }
-  .main-header h2,
+  .main-header h2,/* change main-header to just Header*/
   h3 {
     display: flex;
     justify-content: left;
@@ -77,6 +82,8 @@ h3 {
     font-size: 2.75em;
   }
   .body-paragraph {
+    /*rename it to just main */
+
     display: flex;
     padding-left: 4rem;
     color: aliceblue;

@@ -1,4 +1,5 @@
-nav {
+nav,
+footer {
   /* change to only nav*/
   clear: both;
   display: flex;

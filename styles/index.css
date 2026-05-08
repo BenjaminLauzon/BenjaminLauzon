@@ -1,0 +1,87 @@
+nav {
+  /* change to only nav*/
+  clear: both;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  text-decoration: none;
+  text-wrap: wrap;
+  font-weight: bold;
+}
+.nav-links a:hover {
+  color: rgb(4, 180, 190);
+}
+Header,
+h2,
+h3 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  color: white;
+}
+main {
+  display: flex;
+  padding-left: 2rem;
+  color: aliceblue;
+}
+.home-picture {
+  float: right;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+@media (min-width: 500px) {
+  .nav-links {
+    display: flex;
+    gap: 4rem;
+  }
+  .main-header h2,
+  h3 {
+    display: flex;
+    padding-left: 2rem;
+    color: white;
+    font-size: 1.75em;
+  }
+  main {
+    display: flex;
+    padding-left: 2rem;
+    color: aliceblue;
+    font-size: larger;
+  }
+  .main-body-picture {
+    display: flex;
+    justify-content: right;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 1080px) {
+  .nav-links {
+    display: flex;
+    gap: 8rem;
+  }
+  Header, h2,/* change main-header to just Header*/
+  h3 {
+    display: flex;
+    justify-content: left;
+    color: aliceblue;
+    font-size: 2.75em;
+  }
+  main {
+    display: flex;
+    padding-left: 4rem;
+    color: aliceblue;
+    font-size: x-large;
+  }
+}

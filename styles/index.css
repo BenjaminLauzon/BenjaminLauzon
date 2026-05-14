@@ -23,6 +23,12 @@ footer {
 .nav-links a:hover {
   color: rgb(4, 180, 190);
 }
+h1{
+  display:flex;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+}
 Header,
 h2,
 h3 {
@@ -85,4 +91,18 @@ main {
     color: aliceblue;
     font-size: x-large;
   }
+}
+
+/* for the contact page*/
+.contact-block p{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+.contact-block a{
+  color: white;
+}
+.contact-block a:hover{
+  text-decoration: underline;
 }

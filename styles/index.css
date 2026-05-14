@@ -5,7 +5,10 @@ footer {
   display: flex;
   justify-content: center;
   padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
   background-color: blue;
+  box-shadow: 0 0 15px black;
+
   color: white;
 }
 .nav-links {
@@ -94,6 +97,11 @@ main {
 }
 
 /* for the contact page*/
+.contact-block{
+  box-shadow: 0 0 15px black;
+  background-color: rgba(0, 0, 255);
+
+}
 .contact-block p{
   display: flex;
   justify-content: center;
@@ -105,4 +113,14 @@ main {
 }
 .contact-block a:hover{
   text-decoration: underline;
+}
+
+/* for the experience page */
+.experience-body{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 255);
+  color: white;
+  box-shadow: 0 0 15px black;
 }

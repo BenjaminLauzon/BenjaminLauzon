@@ -1,10 +1,14 @@
-nav {
+nav,
+footer {
   /* change to only nav*/
   clear: both;
   display: flex;
   justify-content: center;
   padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
   background-color: blue;
+  box-shadow: 0 0 15px black;
+
   color: white;
 }
 .nav-links {
@@ -22,6 +26,12 @@ nav {
 .nav-links a:hover {
   color: rgb(4, 180, 190);
 }
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+}
 Header,
 h2,
 h3 {
@@ -36,10 +46,48 @@ main {
   color: aliceblue;
 }
 .home-picture {
-  float: right;
   display: flex;
   align-items: center;
   padding: 0.5rem;
+}
+/* for the contact page*/
+.contact-block {
+  box-shadow: 0 0 15px black;
+  background-color: rgba(0, 0, 255);
+}
+.contact-block p {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.contact-block a {
+  color: white;
+}
+.contact-block a:hover {
+  text-decoration: underline;
+}
+img{
+  width: 300px;
+  height: 200px;
+}
+
+/* for the experience page */
+.experience-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 255);
+  color: white;
+  box-shadow: 0 0 15px black;
+}
+/* for the project page */
+.project-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 255);
+  color: white;
+  box-shadow: 0 0 15px black;
 }
 @media (min-width: 500px) {
   .nav-links {
@@ -64,6 +112,15 @@ main {
     justify-content: right;
     padding-left: 1rem;
   }
+  .contact-block {
+    font-size: larger;
+  }
+  .experience-body {
+    font-size: larger;
+  }
+  .project-body {
+    font-size: larger;
+  }
 }
 
 @media (min-width: 1080px) {
@@ -83,5 +140,14 @@ main {
     padding-left: 4rem;
     color: aliceblue;
     font-size: x-large;
+  }
+  .contact-block {
+    font-size: xx-large;
+  }
+  .experience-body {
+    font-size: xx-large;
+  }
+  .project-body {
+    font-size: xx-large;
   }
 }

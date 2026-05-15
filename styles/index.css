@@ -76,6 +76,15 @@ main {
   color: white;
   box-shadow: 0 0 15px black;
 }
+/* for the project page */
+.project-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 255);
+  color: white;
+  box-shadow: 0 0 15px black;
+}
 @media (min-width: 500px) {
   .nav-links {
     display: flex;
@@ -105,6 +114,9 @@ main {
   .experience-body {
     font-size: larger;
   }
+  .project-body {
+    font-size: larger;
+  }
 }
 
 @media (min-width: 1080px) {
@@ -129,6 +141,9 @@ main {
     font-size: xx-large;
   }
   .experience-body {
+    font-size: xx-large;
+  }
+  .project-body {
     font-size: xx-large;
   }
 }

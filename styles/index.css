@@ -66,6 +66,10 @@ main {
 .contact-block a:hover {
   text-decoration: underline;
 }
+img{
+  width: 300px;
+  height: 200px;
+}
 
 /* for the experience page */
 .experience-body {
